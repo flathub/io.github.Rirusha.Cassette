@@ -1,13 +1,13 @@
 {
-    "app-id" : "io.github.Rirusha.Cassette",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "45",
-    "sdk" : "org.gnome.Sdk",
-    "sdk-extensions" : [
+    "app-id": "io.github.Rirusha.Cassette",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "45",
+    "sdk": "org.gnome.Sdk",
+    "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.vala"
     ],
-    "command" : "cassette",
-    "finish-args" : [
+    "command": "cassette",
+    "finish-args": [
         "--share=network",
         "--share=ipc",
         "--socket=fallback-x11",
@@ -19,11 +19,11 @@
         "--talk-name=org.mpris.MediaPlayer2.Player",
         "--own-name=org.mpris.MediaPlayer2.cassette"
     ],
-    "build-options" : {
-        "append-path" : "/usr/lib/sdk/vala/bin",
-        "prepend-ld-library-path" : "/usr/lib/sdk/vala/lib"
+    "build-options": {
+        "append-path": "/usr/lib/sdk/vala/bin",
+        "prepend-ld-library-path": "/usr/lib/sdk/vala/lib"
     },
-    "cleanup" : [
+    "cleanup": [
         "/include",
         "/lib/pkgconfig",
         "/man",
@@ -35,17 +35,17 @@
         "*.la",
         "*.a"
     ],
-    "modules" : [
+    "modules": [
         {
-            "name" : "cassette",
-            "builddir" : true,
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "cassette",
+            "builddir": true,
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://github.com/Rirusha/Cassette.git",
-                    "tag" : "ver-0.1.1",
-                    "commit" : "0583049268ef5a77344c854fbe2c4e8eacda4a04",
+                    "type": "git",
+                    "url": "https://github.com/Rirusha/Cassette.git",
+                    "tag": "ver-0.1.2",
+                    "commit": "cd8a584601598927da2a30703447f729558686f1",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^ver-([\\d.]+)$"
