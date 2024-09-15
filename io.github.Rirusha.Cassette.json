@@ -55,7 +55,7 @@
             "sources": [
                 {
                     "type": "git",
-                    "url": "https://github.com/Rirusha/Cassette.git",
+                    "url": "https://gitlab.gnome.org/Rirusha/Cassette.git",
                     "tag": "ver-0.2.0",
                     "commit": "3e0cae54969ee8f78c73f0e63b5043c55e423fcb",
                     "x-checker-data": {
